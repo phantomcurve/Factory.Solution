@@ -1,24 +1,27 @@
 # Dr. Sillystringz's Factory
 
-#### A slick little web app for the sly engineer to use to manage his engineers and all his evil machines
+#### A slick little web app for the sly manager to use to manage his engineers and all his evil machines
 
 #### By Tim Roth
 
 ## Description
 
-This Epicodus project creates a C# MVC web app for a factory that is connected to a database to allow the factory manager to add engineers and machines and manage the relationships between them to track machine repairs effectively.
+This Epicodus project creates a C# MVC web app for a factory that is connected to a database to allow the factory manager to add engineers and machines and manage the relationships between them to track machine qualified repairs effectively.
 
 ## User Actions
 
-* View splash page with a welcome message and links to view machine and engineer lists
-* Select `Machines` link to view the current list of engineers
-* Select `Add New Machine` link to add a machine to the list
-* Submitting new machine redirects user to the machines page
-* Selecting `See All Engineers` on `Index` or `Engineer` page shows all engineers at the factory
-* Selecting `Add Engineer` link directs user to a form to add a engineer
+* View splash page with a welcome message, lists of all current engineers and machines, and links to view standalone machine and engineer lists
+* Select `See all machines` link to view the current list of engineers
+* Select `Add New Machine` link to add a new machine to the list
+* Submitting new machine redirects user to the `Machines` index page
+* Selecting an individual machine shows a list of all engineers who can service the machine
+* Selecting `See all engineers` on `Index` or `Engineer` page shows all engineers (with clickable detail links) at the factory
+* Selecting `Add Engineer` link directs user to a form to add an engineer
 * Submitting new engineer redirects user to `Engineer` index page
-* `Machine` index page shows all machines and their preferred engineer
-* Selecting an individual engineer shows a list of all machines belonging to that engineer
+* `Machine` index page shows all machines and their designated engineer(s)
+* Selecting an individual engineer shows a list of all machines serviced by that engineer
+* Selecting `Edit Machine` or `Edit Engineer` allows user to add new or additional pairings for that machine or engineer
+* Deleting a machine from an engineer or an engineer from a machine does not delete the anything other than the association between the two
 
 ## Technologies Used
 
@@ -59,8 +62,8 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 6. Open MySQL Workbench and select Administration tab in upper left of navigator window
 7. Select `Data Import/Restore` 
 8. Select `Import from Self-Contained File`
-9. Navigate to Factory.Solution folder and select tim_roth.sql
-10. With the `Default Schema to be Imported To` dropopdown menu, select `New`
+9. Navigate to Factory.Solution folder and select `tim_roth.sql`
+10. With the `Default Schema to be Imported To` dropdown menu, select `New`
 11. Name your new schema `factory` and click `ok`
 12. Click `Start Import` at bottom right of navigator window
 
