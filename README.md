@@ -1,6 +1,6 @@
 # Dr. Sillystringz's Factory
 
-#### A slick little web app for the sly doctor to use to manage his engineers and all his evil machines
+#### A slick little web app for the sly engineer to use to manage his engineers and all his evil machines
 
 #### By Tim Roth
 
@@ -14,7 +14,7 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 * Select `Machines` link to view the current list of engineers
 * Select `Add New Machine` link to add a machine to the list
 * Submitting new machine redirects user to the machines page
-* Selecting `See All Engineers` on `Index` or `Engineer` page shows all engineers at the salon
+* Selecting `See All Engineers` on `Index` or `Engineer` page shows all engineers at the factory
 * Selecting `Add Engineer` link directs user to a form to add a engineer
 * Submitting new engineer redirects user to `Engineer` index page
 * `Machine` index page shows all machines and their preferred engineer
@@ -61,7 +61,7 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 8. Select `Import from Self-Contained File`
 9. Navigate to Factory.Solution folder and select tim_roth.sql
 10. With the `Default Schema to be Imported To` dropopdown menu, select `New`
-11. Name your new schema `hair_salon` and click `ok`
+11. Name your new schema `factory` and click `ok`
 12. Click `Start Import` at bottom right of navigator window
 
 ### appsettings.json configuration
@@ -71,7 +71,7 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 3. In this file add the following: 
 ``{
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=root;pwd=[YOUR PASSWORD HERE & DELETE THESE SQUARE BRACKETS!];"
+      "DefaultConnection": "Server=localhost;Port=3306;database=factory;uid=root;pwd=[YOUR PASSWORD HERE & DELETE THESE SQUARE BRACKETS!];"
   }
 }``
 
