@@ -10,15 +10,15 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 
 ## User Actions
 
-* View splash page with a welcome message and links to view client and stylist lists
-* Select `Clients` link to view the current list of stylists
-* Select `Add New Client` link to add a client to the list
-* Submitting new client redirects user to the clients page
-* Selecting `See All Stylists` on `Index` or `Stylist` page shows all stylists at the salon
-* Selecting `Add Stylist` link directs user to a form to add a stylist
-* Submitting new stylist redirects user to `Stylist` index page
-* `Client` index page shows all clients and their preferred stylist
-* Selecting an individual stylist shows a list of all clients belonging to that stylist
+* View splash page with a welcome message and links to view machine and engineer lists
+* Select `Machines` link to view the current list of engineers
+* Select `Add New Machine` link to add a machine to the list
+* Submitting new machine redirects user to the machines page
+* Selecting `See All Engineers` on `Index` or `Engineer` page shows all engineers at the salon
+* Selecting `Add Engineer` link directs user to a form to add a engineer
+* Submitting new engineer redirects user to `Engineer` index page
+* `Machine` index page shows all machines and their preferred engineer
+* Selecting an individual engineer shows a list of all machines belonging to that engineer
 
 ## Technologies Used
 
@@ -42,8 +42,8 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 ### Installation
 
 1. Open terminal on your machine
-2. Clone the repository: `git clone https://github.com/phantomcurve/HairSalon.Solution.git`
-3. Navigate to the `\HairSalon` directory
+2. Clone the repository: `git clone https://github.com/phantomcurve/Factory.Solution.git`
+3. Navigate to the `\Factory` directory
 4. Open with your preferred text editor to view the code
 
 
@@ -59,14 +59,14 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 6. Open MySQL Workbench and select Administration tab in upper left of navigator window
 7. Select `Data Import/Restore` 
 8. Select `Import from Self-Contained File`
-9. Navigate to HairSalon.Solution folder and select tim_roth.sql
+9. Navigate to Factory.Solution folder and select tim_roth.sql
 10. With the `Default Schema to be Imported To` dropopdown menu, select `New`
 11. Name your new schema `hair_salon` and click `ok`
 12. Click `Start Import` at bottom right of navigator window
 
 ### appsettings.json configuration
 
-1. Navigate to `\HairSalon` directory in VSCode
+1. Navigate to `\Factory` directory in VSCode
 2. Create a file in this directory called `appsettings.json`
 3. In this file add the following: 
 ``{
@@ -78,7 +78,7 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 
 * #### Run the Program
 
-1. Navigate to the `\HairSalon` directory
+1. Navigate to the `\Factory` directory
 2. Run `dotnet restore`
 3. Run `dotnet build`
 4. Start the program with `dotnet run`
