@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/AddMachine.cshtml",
+      "TargetPath": "Views\\Engineers\\AddMachine.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Index.cshtml",
       "TargetPath": "Views\\Engineers\\Index.cshtml",
       "FileKind": "mvc"
@@ -15636,6 +15641,11 @@
     {
       "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/Create.cshtml",
       "TargetPath": "Views\\Machines\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/Edit.cshtml",
+      "TargetPath": "Views\\Machines\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15661,6 +15671,11 @@
     {
       "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Details.cshtml",
       "TargetPath": "Views\\Engineers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/AddEngineer.cshtml",
+      "TargetPath": "Views\\Machines\\AddEngineer.cshtml",
       "FileKind": "mvc"
     },
     {

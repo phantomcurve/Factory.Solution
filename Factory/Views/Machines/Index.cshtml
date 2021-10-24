@@ -15,11 +15,12 @@
 <ul>
   @foreach(Machine machine in Model)
   {
-      <li>@Html.ActionLink($"{machine.Name}", "Details", new { id = machine.MachineId }) | @machine.Engineer.Name</li>
+      <li>@Html.ActionLink($"{machine.Name}", "Details", new { id = machine.MachineId })</li> 
   }
 </ul>
 
 <p>@Html.ActionLink("Add new machine", "Create")</p>
 <p>@Html.ActionLink("See all machines", "Index", "Machines")</p> 
 <p>@Html.ActionLink("See all engineers", "Index", "Engineers")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
 

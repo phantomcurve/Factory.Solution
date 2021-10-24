@@ -52,3 +52,6 @@
 /Users/phantom/Desktop/Factory.Solution/Factory/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/phantom/Desktop/Factory.Solution/Factory/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/phantom/Desktop/Factory.Solution/Factory/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/phantom/Desktop/Factory.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machines/Edit.cshtml.g.cs
+/Users/phantom/Desktop/Factory.Solution/Factory/obj/Debug/net5.0/Razor/Views/Machines/AddEngineer.cshtml.g.cs
+/Users/phantom/Desktop/Factory.Solution/Factory/obj/Debug/net5.0/Razor/Views/Engineers/AddMachine.cshtml.g.cs

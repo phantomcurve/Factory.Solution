@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Factory.Models
 {
@@ -6,10 +7,11 @@ namespace Factory.Models
   {
     public Engineer()
     {
-      this.Machines = new HashSet<Machine>();
+      this.Machine = new HashSet<EngineerMachine>();
     }
     public int EngineerId { get; set; }
+    [Required(ErrorMessage = "Name is required.")]
     public string Name { get; set; }
-    public virtual ICollection<Machine> Machines { get; set; }
+    public virtual ICollection<EngineerMachine> Machine { get; set; }
   }
 }
