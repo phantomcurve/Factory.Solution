@@ -7,8 +7,10 @@
 <h4>Add a new engineer</h4>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.Name)
+  @Html.Label("Name of new engineer")
   @Html.TextBoxFor(model => model.Name, new { @class = "text", type = "text", required = "required" })
+  @Html.Label("Machines")
+  @Html.DropDownList("MachineId", null, string.Empty)
   <input type="submit" value="Add new engineer" />
 }
 <p>@Html.ActionLink("Show all engineers", "Index")</p>

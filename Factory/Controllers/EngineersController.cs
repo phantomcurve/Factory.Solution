@@ -24,7 +24,7 @@ namespace Factory.Controllers
 
      public ActionResult Create()
     {
-      ViewBag.MachineId = new SelectList(_db.Machines, "MachineId", "MachineName");
+      ViewBag.MachineId = new SelectList(_db.Machines, "MachineId", "Name");
       return View();
     }
 
@@ -56,8 +56,12 @@ namespace Factory.Controllers
     }
 
     [HttpPost]
-    public ActionResult Edit(Engineer engineer)
+    public ActionResult Edit(Engineer engineer, int MachineId)
     {
+      if (MachineId != 0)
+      {
+        _db.EngineerMachine.Add(new EngineerMachine() { MachineId = MachineId, EngineerId = engineer.EngineerId });
+      }
       _db.Entry(engineer).State = EntityState.Modified;
       _db.SaveChanges();
       return RedirectToAction("Details", "Engineers", new { id = engineer.EngineerId });
