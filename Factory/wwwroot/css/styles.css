@@ -2,6 +2,7 @@ h1, h2, h3, h4, p, .btn, li, .text-warning {
   font-family: 'Inconsolata', monospace;
   text-align: center;
   padding: 15px;
+  margin: 20px;
 }
 
 li {
