@@ -1,0 +1,80 @@
+{
+  "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Factory.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "5.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": "Factory",
+  "Documents": [
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Edit.cshtml",
+      "TargetPath": "Views\\Engineers\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/Delete.cshtml",
+      "TargetPath": "Views\\Machines\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Index.cshtml",
+      "TargetPath": "Views\\Engineers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/Create.cshtml",
+      "TargetPath": "Views\\Machines\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Shared/Footer.cshtml",
+      "TargetPath": "Views\\Shared\\Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Create.cshtml",
+      "TargetPath": "Views\\Engineers\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Details.cshtml",
+      "TargetPath": "Views\\Engineers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Engineers/Delete.cshtml",
+      "TargetPath": "Views\\Engineers\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/Index.cshtml",
+      "TargetPath": "Views\\Machines\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/phantom/Desktop/Factory.Solution/Factory/Views/Machines/Details.cshtml",
+      "TargetPath": "Views\\Machines\\Details.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
