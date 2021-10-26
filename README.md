@@ -6,7 +6,7 @@
 
 ## Description
 
-This Epicodus project creates a C# MVC web app for a factory that is connected to a database to allow the factory manager to add engineers and machines and manage the relationships between them to track machine qualified repairs effectively.
+This Epicodus project creates a C# MVC web app (for a fun, fictional factory) that is connected to a database to allow the factory manager to add engineers and machines and manage the relationships between them to track engineer-qualified machine repairs effectively.
 
 ## User Actions
 
@@ -39,7 +39,7 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 ### Prerequisites
 
 * [.NET](https://dotnet.microsoft.com/)
-* A text editor–we prefer [VS Code](https://code.visualstudio.com/)
+* A code editor–we prefer [VS Code](https://code.visualstudio.com/)
 * [MySQL WorkBench](https://dev.mysql.com/downloads/workbench/)
 
 ### Installation
@@ -49,8 +49,28 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 3. Navigate to the `\Factory` directory
 4. Open with your preferred text editor to view the code
 
+### appsettings.json configuration
 
-### MySQL  and MySQL Workbench Configuration
+1. Navigate to `\Factory` directory in VSCode
+2. Create a file in this directory called `appsettings.json`
+3. In this file add the following: 
+``{
+  "ConnectionStrings": {
+      "DefaultConnection": "Server=localhost;Port=3306;database=factory;uid=root;pwd=[YOUR PASSWORD HERE & DELETE THESE SQUARE BRACKETS!];"
+  }
+}``
+
+### Run the Program – using .NET EF Core Code-First Setup
+
+1. Make sure you have navigated to the `\Factory` directory
+2. Make sure you have the MySql Workbench application open and that the server is running
+3. Run `dotnet restore`
+4. Run `dotnet build`
+5. Run `dotnet ef database update`
+6. Start the program with `dotnet run`
+7. Open http://localhost:5000/ in your preferred browser
+
+### Manual MySQL and MySQL Workbench Configuration (if you like working harder, not smarter)
 1. Download and install [MySQL](https://dev.mysql.com/downloads/file/?id=484914) by selecting `No thanks, just start my download`
 2. Follow along with Installer until reaching `Configuration` page
 3. Select `Use Legacy Password Encryption`
@@ -67,29 +87,9 @@ This Epicodus project creates a C# MVC web app for a factory that is connected t
 11. Name your new schema `factory` and click `ok`
 12. Click `Start Import` at bottom right of navigator window
 
-### appsettings.json configuration
-
-1. Navigate to `\Factory` directory in VSCode
-2. Create a file in this directory called `appsettings.json`
-3. In this file add the following: 
-``{
-  "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=factory;uid=root;pwd=[YOUR PASSWORD HERE & DELETE THESE SQUARE BRACKETS!];"
-  }
-}``
-
-
-* #### Run the Program
-
-1. Navigate to the `\Factory` directory
-2. Run `dotnet restore`
-3. Run `dotnet build`
-4. Start the program with `dotnet run`
-5. Open http://localhost:5000/ in your preferred browser
-
 ## Known Bugs
 
-* None
+* User can add multiple join relationships between engineers and machines
 
 ## Contact Information
 
